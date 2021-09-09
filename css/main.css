@@ -96,12 +96,25 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding: 15px 0;
    }
+
+   header {
+     padding: 15px 0;
+   }
+
+
    header .content-wrapper{
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+   }
+
+   .header-divider{
+     width: 100px;
+     height: 1px;
+     margin: 10px 0 20px 0;
    }
    
    header nav{
@@ -109,21 +122,32 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%
    }
 
    header nav ul{
       display: flex;
       justify-content: center;
+      width: 60%;
      
    }
+
+   footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
 
   footer .social-icons{
 
       display: flex;
       justify-content: sapce-around;
       align-items: center;
+
   }
 
+  footer {
+    flex-direction: column;
+  }
   footer .social-icons p{
     display: flex;
       justify-content: center;
@@ -155,6 +179,11 @@ aside {
   flex-flow: row wrap;
   
 }
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
   
 .features .features-items{
   display: flex;
@@ -168,7 +197,7 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 /*---- About Page ----*/
